@@ -1,20 +1,27 @@
 import React from "react";
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import Navbar from 'react-bootstrap/NavBar'
+import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navi() {
 
     return (
-        <div className="navigation">
-            <Navbar bg="rgb(0,0,110" variant ="dark">
-                <Container>
-                    <Nav className="me-auto">
-                        <Nav.Link href="/" className="navbar-link">Home</Nav.Link>
-                        <Nav.Link href="/about" className="navbar-link">About</Nav.Link>
-                        <Nav.Link href="/game" className="navbar-link">Play Game</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
-        </div>
+        <div className="Navibar">
+<Navbar bg="light" expand="lg">
+  <Container>
+    <Navbar.Brand href="/">Finding Your Way</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link href="/adventure">Game</Nav.Link>
+        <Nav.Link href="/about">About</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+</div>
     )
 }
 

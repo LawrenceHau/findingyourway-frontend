@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Porto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Creators**: Andy Zhong, Kimberly Kruedelbach, Lawrence Hau, Roxie Schnoor, Zachary Rehbein.
 
-## Available Scripts
+![Homepage](/src/Images/Homepage.png)
 
-In the project directory, you can run:
+Porto is a web app that was created using React to browse portfolios of all users in our own database created with Express. User can upload their own user information, project details, and images. A search feature is also available if our users are more interested in browsing the available works of other artists and creators, alike.
 
-### `npm start`
+### Technology Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: Utilized _HTML_, _CSS_, _JavaScript_ within the application to create functional components and aesthetically pleasing styling for a simple, modern design.
+- **Bootstrap**: Implemented to create more fluid and structured styling throughout the app.
+- **Heroku**: This web app was deployed using Heroku.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Install Instructions
 
-### `npm test`
+- Fork and Clone this repository, along with the porto-server to provide the backend data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In your terminal after cloning, run:
 
-### `npm run build`
+**`npm install`** or **`npm i`**
+**`npm run start`** or **`npm start`**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Adventure page links to adventures.
+- Path Page links to Routes.
+- Routes Page links to Endings.
+- Ending page displays data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Approach
+I wanted to create an app that would resolve data from a backend built in Django, It allows the front end to render and link that information to go into each seperate page.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Challenges
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- A lot of refactoring of the backend to make sure that the pages would link properly
+- Editing data on the backend would push the data to the bottom of the json, so linking directly was the optimal output method
+- Originally had seperate Route and Path tables which would have stayed ideal, I would like to refactor it back to how I had the previous data set up.
+- Life
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Structuring of Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="600" src="./planning/Wireframe1.jpg" alt=" ">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
