@@ -22,6 +22,7 @@ import GoodEnding from './Components/GoodEnding';
 import BadEnding from './Components/BadEnding';
 import NeutralEnding from './Components/NeutralEnding';
 import Main from './Components/Main';
+import About from './Components/About';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Navi from './Components/Navi';
@@ -35,6 +36,8 @@ function App() {
         <Header/>
         <Route exact path='/'
                 component={Main} />
+        <Route exact path='/about'
+                component={About} />
       <Route exact path='/adventure'
                 component={Adventure} />
       <Route path='/paths'
