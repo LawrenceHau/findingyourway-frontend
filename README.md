@@ -1,6 +1,6 @@
-# Porto
+# FindingYourWay
 
-**Creators**: Andy Zhong, Kimberly Kruedelbach, Lawrence Hau, Roxie Schnoor, Zachary Rehbein.
+**Creator**: LawrenceHau
 
 ![Homepage](/src/Images/Homepage.png)
 
