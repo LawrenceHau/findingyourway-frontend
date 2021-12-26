@@ -4,8 +4,6 @@
 
 <img width="600" src="./planning/Gamepages.png" alt=" ">
 
-Porto is a web app that was created using React to browse portfolios of all users in our own database created with Express. User can upload their own user information, project details, and images. A search feature is also available if our users are more interested in browsing the available works of other artists and creators, alike.
-
 ### Technology Used
 
 - **React**: Utilized _HTML_, _CSS_, _JavaScript_ within the application to create functional components and aesthetically pleasing styling for a simple, modern design.
